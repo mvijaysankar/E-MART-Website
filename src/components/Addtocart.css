@@ -1,0 +1,12 @@
+.add-to-cart-btn:hover {
+  background-color: #003366;
+  color: white;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 0px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

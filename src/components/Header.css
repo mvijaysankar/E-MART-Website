@@ -1,0 +1,27 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.bg-body-white {
+  background-color: white !important;
+}
+
+/* Ensure the navbar is responsive */
+@media (max-width: 992px) {
+  .navbar-brand img {
+    width: 100px; /* Adjust logo size for smaller screens */
+  }
+}
+
+/* Adjust spacing for icons */
+.nav-item .fa {
+  font-size: 1.5rem; /* Ensure icons have a good size */
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-item {
+  padding-right: 15px;
+}
